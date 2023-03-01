@@ -10,9 +10,8 @@
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": true,
-    "defineConstraints": [
-        "UDON"
+    "versionDefines": [
+
     ],
-    "versionDefines": [],
     "noEngineReferences": false
 }
