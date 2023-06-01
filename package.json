@@ -4,7 +4,7 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "postversion": "foreach Packages/* \"npm version ${npm_package_version}\""
+    "postversion": "foreach Packages/*/ \"npm --prefix #{path} version ${npm_package_version}\""
   },
   "devDependencies": {
     "@semantic-release/git": "^10.0.1",
