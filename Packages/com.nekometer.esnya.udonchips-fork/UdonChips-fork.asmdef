@@ -2,7 +2,8 @@
     "name": "UdonChips-fork",
     "references": [
         "UdonSharp.Runtime",
-        "VRC.SDK3A"
+        "VRC.SDKBase",
+        "VRC.Udon"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
