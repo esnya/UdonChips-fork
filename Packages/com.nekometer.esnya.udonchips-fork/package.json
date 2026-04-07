@@ -3,8 +3,12 @@
     "displayName": "UdonChips",
     "description": "UdonChips is a common standard for \"in-world currency\" that can be used in VRChat.",
     "version": "1.0.2",
+    "unity": "2022.3",
     "author": {
         "name": "esnya"
     },
-    "url": "https://github.com/esnya/UdonChips-fork.git?path=/Packages/com.nekometer.esnya.udonchips-fork"
+    "url": "https://github.com/esnya/UdonChips-fork.git?path=/Packages/com.nekometer.esnya.udonchips-fork",
+    "vpmDependencies": {
+        "com.vrchat.worlds": ">=3.1.0"
+    }
 }
