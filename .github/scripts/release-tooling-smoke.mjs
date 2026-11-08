@@ -62,7 +62,7 @@ const githubRequire = createRequire(semanticRequire.resolve('@semantic-release/g
 // The already-locked http-client 4 publishes an import-only entry point.
 // Anchor resolution at its physical manifest; do not pretend it exports require().
 const httpClientRequire = createRequire(path.join(project, 'node_modules/@actions/http-client/package.json'));
-const callers = [[httpClientRequire, '6.29.1'], [githubRequire, '7.30.1']];
+const callers = [[httpClientRequire, '6.29.1'], [githubRequire, '7.30.2']];
 for (const [caller, expected] of callers) {
   const api = caller('undici'); assert.equal(caller('undici/package.json').version, expected);
   const agent = new api.MockAgent(); agent.disableNetConnect();
